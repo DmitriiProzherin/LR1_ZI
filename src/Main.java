@@ -1,7 +1,5 @@
-import java.io.Console;
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
 
 public class Main {
     static int usersAm = 4, filesAm = 6;

@@ -105,7 +105,6 @@ public class SystemEmulator {
 
         Scanner scanner = new Scanner(System.in);
         String userName;
-        User authUser = null;
         boolean admin = false;
 
         System.out.print("\nВведите имя пользователя> ");
