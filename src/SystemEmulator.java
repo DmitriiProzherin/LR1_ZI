@@ -49,7 +49,7 @@ public class SystemEmulator {
         int fileId = scan.nextInt();
 
         if (fileId >= 0 && fileId < filesList.length) {
-            if (matrix[userId][fileId].contains(Rights.READ)) System.out.println("Успешно выполенено чтение файла" + filesList[fileId]);
+            if (matrix[userId][fileId].contains(Rights.READ)) System.out.println("Успешно выполенено чтение файла " + filesList[fileId]);
             else System.out.println("Нет доступа.");
         }
         else System.out.println("Файл не найден.");
@@ -61,7 +61,7 @@ public class SystemEmulator {
         int fileId = scan.nextInt();
 
         if (fileId >= 0 && fileId < filesList.length) {
-            if (matrix[userId][fileId].contains(Rights.WRITE)) System.out.println("Успешно выполнена запись файла" + filesList[fileId]);
+            if (matrix[userId][fileId].contains(Rights.WRITE)) System.out.println("Успешно выполнена запись файла " + filesList[fileId]);
             else System.out.println("Нет доступа.");
         }
         else System.out.println("Файл не найден.");
